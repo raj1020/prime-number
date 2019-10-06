@@ -1,7 +1,7 @@
 def is_it_prime(num)
     #Your code here
     if num<2
-        return "Please provide an integer that is equal to or greater than 2."
+        return "This is not a prime number"
     end
     if num==2
         return "This is a prime number"
