@@ -10,7 +10,7 @@
 
 
 def is_it_prime(num)
-    #Your code here
+    
     if num<2
         return "This is not a prime number"
     end
@@ -18,7 +18,9 @@ def is_it_prime(num)
         return "This is a prime number"
     else
 
-        for i in (2..num)
+
+
+        for i in (2..num) #for loop to determine if a number is prime or not
             if num%i == 0
                 return "This is not a prime number"
                 break
